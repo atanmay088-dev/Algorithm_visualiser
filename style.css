@@ -63,7 +63,7 @@ body{
     height: 70vh;
     width: 40vw;
 }
-#bubbleSort{
+.sortButtons{
     background-color:#445e93ff ;
     color: white;
     border: none;
@@ -76,4 +76,7 @@ body{
 }
 .ending{
     color:rgb(62, 60, 37);
+}
+body.sortingInProgress .sortButtons{
+    display: none;
 }
