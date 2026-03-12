@@ -58,6 +58,7 @@ body{
 #sidebar{
     display: flex;
     right: 0;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 70vh;
@@ -69,10 +70,10 @@ body{
     border: none;
     height: 6vmin;
     width: 20vmin;
-    font-size: 4vmin;
+    font-size: medium;
     border-radius: .5cm;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .ending{
     color:rgb(62, 60, 37);
@@ -80,3 +81,21 @@ body{
 body.sortingInProgress .sortButtons{
     display: none;
 }
+
+body.sortingInProgress #nextButton{
+    background-color:#445e93ff ;
+    color: white;
+    border: none;
+    height: 6vmin;
+    width: 20vmin;
+    font-size: 4vmin;
+    border-radius: .5cm;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body.sortedOrUnsorted .duringSortThings{
+    display: none;
+}
+
+
